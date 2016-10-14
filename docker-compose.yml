@@ -10,7 +10,7 @@ services:
       - ES_HEAP_SIZE=2G
     mem_limit: 4g
   octane:
-    image: hpsoftware/almoctane
+    image: hpsoftware/nga:latest
     ports:
       - "8080:8080"
     volumes:
